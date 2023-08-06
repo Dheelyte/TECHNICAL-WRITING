@@ -6,7 +6,7 @@ datePublished: Thu Jul 13 2023 11:19:41 GMT+0000 (Coordinated Universal Time)
 cuid: clk5k9dpi0jtefgnv1wtt2ffq
 slug: introduction-to-linux-shell-navigation-permissions-968362aac6b9
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689519450960/c50ab82d-7ebd-4337-b810-3cdee64c4045.jpeg
-tags: linux, bash, shell
+tags: linux, bash, devops, shell
 
 ---
 
@@ -288,7 +288,10 @@ In this article, you were introduced to the Unix-based operating system, Linux a
 
 Thanks for reading.
 
-**Follow me on:**  
+**Follow me on:**
+
+GitHub**:** [https://github.com/DelightGbolahan](https://github.com/DelightGbolahan)
+
 Twitter: [https://twitter.com/DelightGbolahan](https://twitter.com/DelightGbolahan)  
 LinkedIn: [https://linkedin.com/in/delight-olagbuji](https://linkedin.com/in/delight-olagbuji)
 
