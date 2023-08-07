@@ -6,7 +6,7 @@ datePublished: Fri Aug 04 2023 20:58:47 GMT+0000 (Coordinated Universal Time)
 cuid: cll0w0i7n000l09ky4xhu2j4e
 slug: user-location-country-and-currency-in-django
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691337376842/77214e21-b5ea-4110-b730-8a07fc435a35.jpeg
-tags: django, geolocation
+tags: json, django, geolocation
 
 ---
 
@@ -139,9 +139,9 @@ def currency(request):
     with open('static/json/currency.json', encoding="utf8") as f:
         data = json.load(f)
         for keyval in data:
-        if country == keyval['isoAlpha2']:
-        code = keyval['currency']['code']
-        symbol = keyval['currency']['symbol']
+            if country == keyval['isoAlpha2']:
+                code = keyval['currency']['code']
+                symbol = keyval['currency']['symbol']
     return [code, symbol]
 ```
 
