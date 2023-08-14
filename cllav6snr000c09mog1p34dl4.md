@@ -4,7 +4,7 @@ seoTitle: "Send Email with Verification Link in Django"
 seoDescription: "In this article, you explore a common use case of sending emails. You would register users and send them an email with a verification link."
 datePublished: Mon Aug 14 2023 12:42:02 GMT+0000 (Coordinated Universal Time)
 cuid: cllav6snr000c09mog1p34dl4
-slug: send-email-verification-custom-user-model-django
+slug: send-verification-email-django
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691980720175/416211e8-df0d-4c10-beac-ebb2753bedad.jpeg
 tags: python, django, email
 
