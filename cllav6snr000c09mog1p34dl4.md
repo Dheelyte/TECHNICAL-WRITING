@@ -5,6 +5,7 @@ seoDescription: "In this article, you explore a common use case of sending email
 datePublished: Mon Aug 14 2023 12:42:02 GMT+0000 (Coordinated Universal Time)
 cuid: cllav6snr000c09mog1p34dl4
 slug: send-verification-email-django
+canonical: https://delighto.medium.com/how-to-send-email-with-verification-link-in-django-efb21eefffe8
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691980720175/416211e8-df0d-4c10-beac-ebb2753bedad.jpeg
 tags: python, django, email
 
@@ -561,11 +562,15 @@ As of May 30th, 2022, Google no longer allowed third-party apps to authenticate 
 
 Visit [this page](https://support.google.com/accounts/answer/185833) to create an App password for your Django application. Then use this password as `EMAIL_HOST_PASSWORD` in your project's `settings.py` file.
 
+When Django sends the verification email, it should look something like the image below. Feel free to customize the email template.
+
+![Send Email Verification Link using Django](https://cdn.hashnode.com/res/hashnode/image/upload/v1692035145437/123be318-1e15-49aa-a2a3-bfe3db6ec30a.png align="center")
+
 ## Conclusion
 
-Once the email credentials are correctly set up in your `settings.py` file, you can proceed to manually test your application. Create a user with the sign up form, and a verification link will be sent to the email entered into the form. Input an email that you have access to so that you can see the whole verification process in action.
+Once the email credentials are correctly set up in your `settings.py` file, you can proceed to manually test your application. Create a user with the signup form, and a verification link will be sent to the email entered into the form. Input an email that you have access to so that you can see the whole verification process in action.
 
-In this article, you have learned how to create and activate a virtual environment for your Django project, extend the default Django's `User` model, create a sign up form to register users and send emails containing a verification link.
+In this article, you have learned how to create and activate a virtual environment for your Django project, extend the default Django's `User` model, create a signup form to register users and send emails containing a verification link.
 
 Thanks for reading.
 
