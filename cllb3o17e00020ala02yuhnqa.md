@@ -1,9 +1,10 @@
 ---
-title: "Write Better Code With Python Comprehensions"
+title: "Write Better Codes With Python Comprehensions"
 seoTitle: "What is Python Comprehension: Lists, dictionaries and sets."
 datePublished: Mon Aug 14 2023 16:39:23 GMT+0000 (Coordinated Universal Time)
 cuid: cllb3o17e00020ala02yuhnqa
 slug: python-comprehension-list-dicts-sets
+canonical: https://python.plainenglish.io/write-better-code-with-python-comprehension-bad8376e44ee
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/zGuBURGGmdY/upload/130ede51a665e0e48ab3b372c0541f34.jpeg
 tags: python, data-structures
 
