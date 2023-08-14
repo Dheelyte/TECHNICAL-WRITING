@@ -30,6 +30,8 @@ In this article, we would explore the first use case in which you will:
 * Send a verification link to the user's email after registration.
     
 
+This project's source code can be found on [my GitHub](https://github.com/Dheelyte/Tutorials/tree/main/sendemail).
+
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text"><strong>Prerequisites:</strong> Before continuing with this guide, you should be familiar with the basics of Python and Django Web Framework. In this guide, you would be making use of Django version <strong>4.2.4</strong>.</div>
